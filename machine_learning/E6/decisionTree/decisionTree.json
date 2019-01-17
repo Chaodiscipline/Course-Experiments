@@ -1,0 +1,70 @@
+{
+  "fixed acidity<4.05": 1.0,
+  "fixed acidity>4.05": 
+  {
+    "sulphates<0.225": 1.0,
+    "sulphates>0.225": {
+      "alcohol<12.5": {
+        "pH<3.815": {
+          "chlorides<0.1355": {
+            "volatile acidity<0.08": {
+              "residual sugar<1.6": 0.0,
+              "residual sugar>1.6": 1.0
+            },
+            "volatile acidity>0.08": {
+              "citric acid<0.24": {
+                "free sulfur dioxide<10.0": {
+                  "total sulfur dioxide<70.0": 0.0,
+                  "total sulfur dioxide>70.0": {
+                    "density<0.99063": 0.0,
+                    "density>0.99063": 0.0
+                  }
+                },
+                "free sulfur dioxide>10.0": {
+                  "density<0.9892799999999999": 0.0,
+                  "density>0.9892799999999999": 0.0
+                }
+              },
+              "citric acid>0.24": {
+                "total sulfur dioxide<37.0": {
+                  "density<0.9899450000000001": 0.0,
+                  "density>0.9899450000000001": 0.0
+                },
+                "total sulfur dioxide>37.0": 0.0
+              }
+            }
+          },
+          "chlorides>0.1355": 0.0
+        },
+        "pH>3.815": 1.0
+      },
+      "alcohol>12.5": {
+        "volatile acidity<0.7150000000000001": {
+          "citric acid<0.64": {
+            "residual sugar<1.0": {
+              "free sulfur dioxide<12.5": 0.0,
+              "free sulfur dioxide>12.5": {
+                "total sulfur dioxide<129.0": 1.0,
+                "total sulfur dioxide>129.0": 0.0
+              }
+            },
+            "residual sugar>1.0": {
+              "total sulfur dioxide<31.0": 0.0,
+              "total sulfur dioxide>31.0": {
+                "density<0.9872650000000001": 1.0,
+                "density>0.9872650000000001": {
+                  "chlorides<0.0605": 1.0,
+                  "chlorides>0.0605": 0.0
+                }
+              }
+            }
+          },
+          "citric acid>0.64": 0.0
+        },
+        "volatile acidity>0.7150000000000001": {
+          "residual sugar<3.3": 1.0,
+          "residual sugar>3.3": 0.0
+        }
+      }
+    }
+  }}

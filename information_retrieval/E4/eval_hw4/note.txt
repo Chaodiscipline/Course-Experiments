@@ -1,0 +1,8 @@
+1.json格式读取tweets，实现检索
+2.先实现输入一个检索id，进行检索，得到tweetid
+
+按qrels中的检索顺序依次检索，记录并在result.txt
+中写入检索id，
+
+3.返回tweetid，按评分从高到低排序（前100个）
+4.继续在result中写入检索结果
